@@ -49,10 +49,11 @@ This project demonstrates a secure system for **Authentication**, **Authorizatio
    cd RBAC_Backend
    npm install
 2. **Setup Environment Variables: Create a .env file in the root directory with the following**
+```bash
 PORT=8080
-SERECT_KEY=<Secrret key>
+SERECT_KEY=<your_secret_key>
 SERVER=http://localhost:8080
-MONGO_URI=<Database URI>
+MONGO_URI=<your_database_connection_string>
 npm start
 # API Endpoints
 Method	Endpoint	Description
